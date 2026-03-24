@@ -10,7 +10,6 @@ const About = ({ setCurrentView }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <button className="modal-close" onClick={() => setCurrentView('home')} aria-label="Return home"></button>
 
         {/* Scrapbook Elements */}
         <motion.div className="polaroid p1" drag dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}>
@@ -18,7 +17,6 @@ const About = ({ setCurrentView }) => {
           <div className="polaroid-frame">
             <div className="polaroid-img-container">
               <img src="/isha/photo1.jpg" alt="" onError={(e) => e.target.style.display = 'none'} />
-              <div className="polaroid-placeholder-text">photo 1</div>
             </div>
             <div className="polaroid-caption">captured moments.</div>
           </div>
@@ -29,7 +27,6 @@ const About = ({ setCurrentView }) => {
           <div className="polaroid-frame">
             <div className="polaroid-img-container">
               <img src="/isha/photo2.jpg" alt="" onError={(e) => e.target.style.display = 'none'} />
-              <div className="polaroid-placeholder-text">photo 2</div>
             </div>
             <div className="polaroid-caption">vivid memories.</div>
           </div>

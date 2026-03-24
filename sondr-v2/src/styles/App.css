@@ -234,11 +234,30 @@
 }
 
 @media (max-width: 900px) {
-  .polaroid { display: none; } /* Focus on text on small screens */
+  .about-section { padding-top: 120px; }
+  .polaroid { 
+    display: block; 
+    scale: 0.55;
+    z-index: 10;
+    pointer-events: none;
+    top: auto !important; /* Force bottom placement */
+  }
+  .polaroid.p1 { bottom: -60px; right: -30px; transform: rotate(8deg); }
+  .polaroid.p2 { bottom: -100px; left: -30px; transform: rotate(-8deg); }
+  .about-paper { padding-bottom: 12rem; } /* Extra space for bottom polaroids */
+}
+
+@media (max-width: 600px) {
+  .polaroid.p1 { bottom: -80px; right: -40px; }
+  .polaroid.p2 { bottom: -130px; left: -45px; }
+  .about-paper { padding: 4rem 1.5rem 14rem; }
 }
 
 .about-signature {
-  margin-top: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem; /* Keep signature away from paper edge */
+  position: relative;
+  z-index: 5;
   text-align: right;
   font-family: var(--font-serif);
   font-style: italic;
