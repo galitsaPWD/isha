@@ -81,7 +81,7 @@ const About = ({ setCurrentView }) => {
           transition={{ delay: 1, duration: 1 }}
         >
           with love, <br/>
-          always.
+          wana.
         </motion.div>
       </motion.div>
     </section>
