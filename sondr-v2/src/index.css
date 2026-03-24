@@ -37,16 +37,14 @@ body::before {
 
 /* Blush Gradient Layer (Radiating Wave) */
 .blush-overlay {
-  /* Calculate exact center of 'isha.' brand name inside the 1200px container */
   --wave-origin: max(3rem, calc(50vw - 600px + 3rem)) 2.5rem;
-  
   position: fixed;
   inset: 0;
-  background: radial-gradient(circle at var(--wave-origin), #ffcbda 0%, #ffe4e1 45%, #fff0f5 100%);
+  background: radial-gradient(circle at var(--wave-origin), rgba(255, 203, 218, 0.9) 0%, rgba(255, 228, 225, 0.7) 45%, rgba(255, 240, 245, 0) 100%);
   z-index: -1;
   opacity: 1;
   clip-path: circle(0px at var(--wave-origin));
-  transition: clip-path 1.5s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: clip-path 1.5s cubic-bezier(0.76, 0, 0.24, 1), background 1.5s ease;
   pointer-events: none;
 }
 
