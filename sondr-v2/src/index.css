@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&family=Mrs+Saint+Delafield&family=Petit+Formal+Script&display=swap');
+@import './styles/tokens.css';
+@import './styles/Nav.css';
+@import './styles/Hero.css';
+@import './styles/Poems.css';
+@import './styles/App.css';
+@import './styles/Envelope.css';
+@import './styles/Personal.css';
+@import './styles/SecretMessage.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text-main);
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: color var(--transition-ultra-slow);
+}
+
+/* Base Gradient Layer */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: var(--bg-hero);
+  z-index: -2;
+  transition: opacity var(--transition-ultra-slow);
+}
+
+/* Blush Gradient Layer (Radiating Wave) */
+.blush-overlay {
+  /* Calculate exact center of 'isha.' brand name inside the 1200px container */
+  --wave-origin: max(3rem, calc(50vw - 600px + 3rem)) 2.5rem;
+  
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at var(--wave-origin), #ffcbda 0%, #ffe4e1 45%, #fff0f5 100%);
+  z-index: -1;
+  opacity: 1;
+  clip-path: circle(0px at var(--wave-origin));
+  transition: clip-path 1.5s cubic-bezier(0.76, 0, 0.24, 1);
+  pointer-events: none;
+}
+
+.theme-blush .blush-overlay {
+  clip-path: circle(250vmax at var(--wave-origin));
+  animation: blushPulse 8s ease-in-out infinite alternate 1.5s;
+}
+
+@keyframes blushPulse {
+  0% { transform: scale(1); opacity: 0.9; }
+  100% { transform: scale(1.05); opacity: 1; }
+}
+
+h1, h2, h3, .serif {
+  font-family: var(--font-serif);
+}
+
+/* Ambient Background Motion (Subtle glow) */
+.ambient-glow {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(210, 119, 60, 0.08), transparent 70%);
+  z-index: -3;
+  pointer-events: none;
+  animation: ambientShift 15s ease-in-out infinite alternate;
+}
+
+@keyframes ambientShift {
+  0% { transform: translate(-2%, -2%) scale(1); }
+  100% { transform: translate(2%, 2%) scale(1.05); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-soft);
+  border-radius: var(--radius-pill);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Utils */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.view-active {
+  display: block;
+}
+
+.view-hidden {
+  display: none;
+}

@@ -1,0 +1,75 @@
+:root {
+  /* Golden Hour Palette */
+  --bg: #fdf6ee;
+  --bg-rgb: 253, 246, 238;
+  --bg-alt: #f7e4cf;
+  --bg-soft: #fbe9d5;
+  --bg-hero: radial-gradient(circle at top left, #ffe5c2 0, #fbe9d5 35%, #f6d5b4 60%, #f3c3aa 100%);
+
+  --text-main: #3a241d;
+  --text-soft: #7a5a4c;
+  --text-muted: #a7836b;
+
+  --accent: #d2773c;
+  --accent-soft: #f3b58a;
+  --accent-deep: #7a3c1f;
+
+  --card-bg: rgba(255, 250, 242, 0.94);
+  --card-border: rgba(210, 157, 120, 0.35);
+
+  --shadow-soft: 0 18px 45px rgba(122, 60, 31, 0.18);
+  --shadow-subtle: 0 10px 28px rgba(0, 0, 0, 0.12);
+
+  --radius-lg: 32px; /* More organic, softer */
+  --radius-md: 18px;
+  --radius-pill: 999px;
+
+  --transition-fast: 160ms ease-out;
+  --transition-med: 230ms ease-out;
+  --transition-slow: 360ms ease-out;
+  --transition-ultra-slow: 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  --blur-soft: 22px;
+  --grain-opacity: 0.26;
+
+  /* Typography */
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+.theme-night {
+  --bg: #18100d;
+  --bg-rgb: 24, 16, 13;
+  --bg-alt: #241410;
+  --bg-soft: #2e1a14;
+  --bg-hero: radial-gradient(circle at top left, #3a2417 0, #241410 55%, #120b08 100%);
+
+  --text-main: #f8eee4;
+  --text-soft: #e1c0a1;
+  --text-muted: #b68b69;
+
+  --accent: #f9c774;
+  --accent-soft: #f3a05a;
+  --accent-deep: #f6d89a;
+
+  --card-bg: rgba(23, 12, 9, 0.92);
+  --card-border: rgba(248, 208, 145, 0.28);
+
+  --shadow-soft: 0 22px 55px rgba(0, 0, 0, 0.7);
+  --shadow-subtle: 0 12px 30px rgba(0, 0, 0, 0.65);
+
+  --grain-opacity: 0.35;
+}
+
+.theme-blush {
+  /* Wave overlay handles the background, so we only override text and accents */
+  --text-main: #5d2e3c; /* Dusty Rose Deep */
+  --text-soft: #8e5a6a;
+  --text-muted: #b58390;
+
+  --accent: #f08080; /* Light Coral */
+  --accent-soft: #ffb7b2;
+  --accent-deep: #cc6666;
+
+  --grain-opacity: 0.2;
+}
