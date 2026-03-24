@@ -385,11 +385,11 @@ if it meant i could stay
 in your gentle light.`,
   },
   {
-      id: "tell-me-your-flaws",
-      title: "learning you",
-      meta: "acceptance | love",
-      firstLine: "tell me your flaws— not the cute ones you joke about,",
-      body: `tell me your flaws—
+    id: "tell-me-your-flaws",
+    title: "learning you",
+    meta: "acceptance | love",
+    firstLine: "tell me your flaws— not the cute ones you joke about,",
+    body: `tell me your flaws—
 not the cute ones you joke about,
 but the ones you think would make someone look away,
 the ones you hide because you've always had to be strong.
@@ -457,7 +457,7 @@ reaching for anyone who bothered to look.
 but beauty gets lonely
 when it isn't the one you're searching for.
 and somewhere along the way,
-i realized I wasn't looking for a garden at all—
+i realized i wasn't looking for a garden at all—
 
 just a single tulip,
 quiet and sure in its own softness.
@@ -600,8 +600,8 @@ in every corner of who you are.`,
     id: "burnt-cigarette",
     title: "burnt cigarette",
     meta: "devotion | intensity",
-    firstLine: "i know what I'm holding between my fingers might be the end of me —",
-    body: `i know what I'm holding between my fingers
+    firstLine: "i know what i'm holding between my fingers might be the end of me —",
+    body: `i know what i'm holding between my fingers
 might be the end of me —
 but some endings are worth the smoke.
 
@@ -863,7 +863,370 @@ in the places you always felt broken.
 
 i still hate my smile,
 but when i’m with you,
-i love the reason it exists.`,
+    i love the reason it exists.`,
+  },
+  {
+    id: "near-her-fire",
+    title: "near her fire",
+    meta: "admiration | freedom",
+    firstLine: "i don’t want to change her — not the way she laughs too loud,",
+    body: `i don’t want to change her —
+not the way she laughs too loud,
+or how she gets excited over the smallest things,
+or how she lights up a room
+without ever meaning to.
+
+i just want to be close enough
+to feel that warmth.
+
+she’s fire —
+not the kind you contain,
+but the kind you respect,
+the kind you watch in quiet awe
+because somehow it makes the world
+hurt a little less.
+
+i never wanted to dim her spark,
+never wanted her to shrink to fit beside me.
+all i ever wanted
+was a place near her light —
+to watch her grow,
+to root for her,
+to love every version she becomes.
+
+i love her as she is —
+soft, wild, glowing, burning —
+and maybe that’s enough.
+
+not to hold her,
+not to claim her,
+but simply
+to be near her fire.`,
+  },
+  {
+    id: "worth-knowing",
+    title: "worth knowing",
+    meta: "depth | reality",
+    firstLine: "everyone else noticed her beauty first — the pretty face, the charm,",
+    body: `everyone else noticed her beauty first —
+the pretty face, the charm,
+the kind of girl people want
+just so they can say they had her.
+
+but me?
+i noticed the quiet things —
+the tiredness behind her eyes,
+the weight she carries without telling anyone,
+the strength it takes for her
+to keep showing up
+even when life keeps testing her.
+
+i didn’t want her
+because she was hurting —
+i wanted her
+because she was real.
+because she feels deeply,
+loves quietly,
+and tries harder than anyone realizes.
+
+i didn’t want to fix her,
+or save her,
+or turn her pain into a reason to stay.
+i just wanted to be someone
+she could lean on without fear,
+a place that felt steady
+in a world that keeps shaking.
+
+i wanted to love her
+in a way she’d never have to question —
+soft, patient, honest.
+the kind that stays
+through her laughter and her silence,
+her confidence and her doubt.
+
+everyone else wanted the pretty girl.
+i wanted the whole person —
+the strong parts,
+the scared parts,
+the parts she hides,
+the parts she’s still learning to love.
+
+because she’s not just beautiful —
+she’s worth knowing.
+and that’s why i chose her.`,
+  },
+  {
+    id: "under-the-same-sun",
+    title: "under the same sun",
+    meta: "silent love | gratitude",
+    firstLine: "i look at her sometimes and it hits me —",
+    body: `i look at her sometimes
+and it hits me —
+how lucky the man she chooses someday
+is going to be.
+
+not because she’s pretty
+not just that,
+but because she loves with this softness
+that most people don’t even notice
+until it’s gone.
+
+and there i am —
+wanting her quietly,
+loving her carefully,
+never saying too much
+because she’s not mine to claim.
+
+i wish i could tell her
+how she makes my whole world slow down,
+how her smile sticks with me
+long after she’s gone,
+how being beside her
+feels like the closest thing to home
+i’ve ever felt.
+
+but for now,
+i just admire her from where i am —
+grateful i get to exist with her
+under the same sun,
+even if she’ll never be mine.`,
+  },
+  {
+    id: "everything-everywhere",
+    title: "everything, everywhere",
+    meta: "missing you | longing",
+    firstLine: "i miss her. i miss her genuine laughter,",
+    body: `i miss her.
+
+i miss her genuine laughter,
+a laugh i never thought
+that will be stuck in my head.
+
+i miss her soothing voice,
+it's as sweet as honey to my eardrums.
+miss her random topics,
+the way we laughed talking about it.
+
+i miss her comforting smile,
+it gives me peace i didn't know i wanted.
+i seek it every day and night,
+but i guess i can see it only on screen this time.
+
+most of all i miss her eyes,
+goddamn i can't put into words.
+it pulls me in a world, into somewhere.
+i don't even care where, 
+but i know if i was given a chance —
+i'll dive right in.
+
+i can write up a whole damn essay 
+just to talk about her eyes.
+the way they look at me,
+like they speak to me spiritually.
+
+i'll trade the whole world —
+if i can see those eyes every day
+of my entire life.
+
+i try to put it into words,
+but it lives beyond letters and drama.
+
+it's like a ray of sunshine
+shining in my window at noon,
+or the feeling of cold air 
+filling my lungs.
+
+i can't describe it well
+but i know —
+if her eyes can kill me,
+i'll gladly face death.
+
+i miss her,
+in everything.
+everywhere.
+all the time.`,
+  },
+  {
+    id: "to-the-world",
+    title: "whispered world",
+    meta: "confession | world",
+    firstLine: "if i was ever asked to shout to the world how much i love you —",
+    body: `if i was ever asked to shout
+to the world how much i love you —
+
+i’d whisper it in your ear.
+
+because you’re my world.
+
+this is one of those cheesy lines
+i don’t know if you’d like.
+but given the circumstances,
+maybe it’s true.
+
+you’ve become part of my world
+in ways you don’t even realize.
+
+in the small things i notice,
+i think of you —
+wondering if you’d like this
+if you were here.
+
+my eyes struggle in a sea of faces,
+always searching for yours,
+hoping to catch a glimpse
+just to smile and move on.
+
+and in the middle of random days
+i find myself thinking of you,
+daydreaming about things
+i hope we’ll get to do.
+
+maybe i’m right.
+
+you’re my world now —
+not because you’re mine,
+but because you exist beside me.
+
+and even if you never are,
+i’m still glad
+to be in the same earth as you.`,
+  },
+  {
+    id: "words-wont-come-out",
+    title: "rattled",
+    meta: "pain | unrequited",
+    firstLine: "i don't know what to say, words won't come out of my mouth.",
+    body: `i don't know what to say,
+words won't come out of my mouth.
+i know we're not together
+but why do i feel weird when you're around him.
+
+i know i shouldn't be this way
+i should be happy as your friend.
+im trying.
+i try.
+
+but all comes to naught
+my brain puzzled —
+my heart rattled.
+
+this is the type of feeling 
+that i don't know what to do.
+i hate this
+but i dont hate you.
+
+i actually hate myself,
+for being like this.
+
+but is it wrong?
+when all i know —
+is just to love.
+with all my heart.
+
+is it a sin?
+knowing i will get hurt by this.
+i love you but i know 
+you won't turn your back for me.
+
+i hate myself for needing love
+that me myself don't even know what to give.
+maybe in another time,
+another life,
+in another ways.
+
+i wont be your second best.`,
+  },
+  {
+    id: "courtesy-of-time",
+    title: "courtesy of time",
+    meta: "stillness | presence",
+    firstLine: "the room has learned how to hold its breath.",
+    body: `the room has learned how to hold its breath.
+no words drifting between us,
+no future trying to introduce itself.
+just the soft agreement of presence,
+unspoken, unclaimed.
+
+earlier, my body was restless—
+fear moving faster than thought,
+an ache with no direction.
+now it’s still,
+as if it remembered how to be human again.
+
+nothing shifted in the grand sense.
+no turning point. no revelation.
+only time slowing down
+out of courtesy.
+
+i used to think moments needed meaning
+to be worth keeping.
+tonight asks for nothing.
+
+and somehow,
+that’s enough.`,
+  },
+  {
+    id: "i-still-adore-you",
+    title: "from the sidelines",
+    meta: "acceptance | adoration",
+    firstLine: "your wont probably believe me but — i still adore you,",
+    body: `your wont probably believe me
+but —
+i still adore you,
+even though it hurts.
+
+i don't regret it in any way,
+im actually glad its you.
+
+you made me do things
+that's seemed impossible to me before.
+you changed me in little ways,
+i didn't even noticed.
+
+you're always a something,
+a someone —
+that i'll hold on dearly,
+even i can't have for myself.
+
+a part of you will always live
+with in me.
+
+you don't know how much you mean
+to me just by existing.
+thank you for giving me the courage,
+to try the things im scared of.
+
+i want to see you win,
+in every dreams that you have.
+but most of all —
+i hope you heal from the things
+you can't talk about.
+
+and also do things that you love,
+things that makes you happy.
+
+laugh,
+cry,
+get angry,
+for that is you.
+
+remember —
+you're not too much,
+they just don't understand.
+so don't ever lower yourself,
+for anyone.
+
+i hope your destiny
+brings you great joy,
+even if i'm not a part of it.
+
+but i'll always be here,
+just on the sides.
+like i always do,
+just like i told you.
+
+thank you, 
+isha.`,
   },
 ];
 
@@ -889,25 +1252,21 @@ const poemModalBody = document.getElementById("poemModalBody");
 const poemModalContent = document.querySelector(".poem-modal__content");
 
 function resetPoemScroll() {
+  const scrollWrapper = document.querySelector(".poem-modal__body-wrapper");
+  if (scrollWrapper) {
+    scrollWrapper.scrollTop = 0;
+  }
   if (poemModalContent) {
     poemModalContent.scrollTop = 0;
-    poemModalContent.scrollLeft = 0;
-    if (typeof poemModalContent.scrollTo === "function") {
-      poemModalContent.scrollTo(0, 0);
-    }
-  }
-  if (poemModalBody) {
-    poemModalBody.scrollTop = 0;
-    poemModalBody.scrollLeft = 0;
-  }
-  if (poemModal) {
-    poemModal.scrollTop = 0;
-    poemModal.scrollLeft = 0;
   }
 }
 
 const randomPoemButton = document.getElementById("randomPoemButton");
 const modeToggle = document.getElementById("modeToggle");
+
+const cursorAura = document.getElementById("cursorAura");
+const brandMark = document.getElementById("brandMark");
+const heroSubtitle = document.querySelector(".hero-subtitle");
 
 // --------
 // Navigation
@@ -969,6 +1328,7 @@ function openPoem(id) {
   poemModal.classList.add("is-open");
   poemModal.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
+  document.documentElement.style.overflow = "hidden";
 
   // Reset scroll position after modal is visible/layout is updated
   resetPoemScroll();
@@ -978,9 +1338,13 @@ function openPoem(id) {
 }
 
 function closePoemModal() {
+  if (document.activeElement instanceof HTMLElement) {
+    document.activeElement.blur();
+  }
   poemModal.classList.remove("is-open");
   poemModal.setAttribute("aria-hidden", "true");
   document.body.style.overflow = "";
+  document.documentElement.style.overflow = "";
 
   // Ensure modal scroll is reset after closing as well
   resetPoemScroll();
@@ -1007,6 +1371,42 @@ function openRandomPoem() {
 }
 
 randomPoemButton.addEventListener("click", openRandomPoem);
+
+// --------
+// Music Modal
+// --------
+
+const musicModal = document.getElementById("musicModal");
+const musicModalBackdrop = document.getElementById("musicModalBackdrop");
+const musicModalClose = document.getElementById("musicModalClose");
+const musicBtn = document.getElementById("musicBtn");
+
+function openMusicModal() {
+  musicModal.classList.add("is-open");
+  musicModal.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+  document.documentElement.style.overflow = "hidden";
+}
+
+function closeMusicModal() {
+  if (document.activeElement instanceof HTMLElement) {
+    document.activeElement.blur();
+  }
+  musicModal.classList.remove("is-open");
+  musicModal.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
+  document.documentElement.style.overflow = "";
+}
+
+musicBtn.addEventListener("click", openMusicModal);
+musicModalClose.addEventListener("click", closeMusicModal);
+musicModalBackdrop.addEventListener("click", closeMusicModal);
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && musicModal.classList.contains("is-open")) {
+    closeMusicModal();
+  }
+});
 
 // --------
 // Warm night mode
@@ -1037,10 +1437,86 @@ function toggleTheme() {
 modeToggle.addEventListener("click", toggleTheme);
 
 // --------
+// Magic Details
+// --------
+
+// 1. Cursor Aura
+function initCursorAura() {
+  if (!cursorAura) return;
+
+  let mouseX = 0;
+  let mouseY = 0;
+  let currentX = 0;
+  let currentY = 0;
+
+  document.addEventListener("mousemove", (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+    cursorAura.style.opacity = "1";
+  });
+
+  document.addEventListener("mouseleave", () => {
+    cursorAura.style.opacity = "0";
+  });
+
+  function update() {
+    currentX += (mouseX - currentX) * 0.15;
+    currentY += (mouseY - currentY) * 0.15;
+    cursorAura.style.transform = `translate(${currentX}px, ${currentY}px) translate(-50%, -50%)`;
+    requestAnimationFrame(update);
+  }
+  update();
+}
+
+// 2. Heartbeat Logo transition
+function initBrandMark() {
+  if (!brandMark) return;
+
+  let hoverTimer;
+  const originalMark = brandMark.textContent;
+
+  brandMark.parentElement.addEventListener("mouseenter", () => {
+    hoverTimer = setTimeout(() => {
+      brandMark.textContent = "♥";
+    }, 2000);
+  });
+
+  brandMark.parentElement.addEventListener("mouseleave", () => {
+    clearTimeout(hoverTimer);
+    brandMark.textContent = originalMark;
+  });
+}
+
+// 3. Living Verse Typing Effect
+function initTypingEffect() {
+  if (!heroSubtitle) return;
+
+  const text = heroSubtitle.textContent.trim();
+  heroSubtitle.textContent = "";
+
+  let i = 0;
+  function type() {
+    if (i < text.length) {
+      heroSubtitle.textContent += text.charAt(i);
+      i++;
+      setTimeout(type, 50);
+    }
+  }
+
+  // Start typing after a small delay
+  setTimeout(type, 1000);
+}
+
+// --------
 // Init
 // --------
 
 document.addEventListener("DOMContentLoaded", () => {
   applyStoredTheme();
   renderPoems();
+
+  // Magic Details
+  initCursorAura();
+  initBrandMark();
+  initTypingEffect();
 });
