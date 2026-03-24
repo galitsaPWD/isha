@@ -6,7 +6,6 @@ import Hero from './components/Hero';
 import PoemsGrid from './components/PoemsGrid';
 import About from './components/About';
 import PoemModal from './components/PoemModal';
-import MusicModal from './components/MusicModal';
 import AmbientPlayer from './components/AmbientPlayer';
 import SecretMessageModal from './components/SecretMessageModal';
 
@@ -23,7 +22,6 @@ function App() {
     return 'day';
   });
   const [selectedPoemId, setSelectedPoemId] = useState(null);
-  const [isMusicOpen, setIsMusicOpen] = useState(false);
   const [isSecretOpen, setIsSecretOpen] = useState(false);
 
   useEffect(() => {
@@ -58,7 +56,6 @@ function App() {
         theme={theme} 
         toggleTheme={toggleTheme}
         openRandomPoem={openRandomPoem}
-        openMusic={() => setIsMusicOpen(true)}
         setIsBlushActive={setIsBlushActive}
       />
 
@@ -110,11 +107,6 @@ function App() {
       <PoemModal 
         poem={poems.find(p => p.id === selectedPoemId)} 
         onClose={() => setSelectedPoemId(null)} 
-      />
-
-      <MusicModal 
-        isOpen={isMusicOpen} 
-        onClose={() => setIsMusicOpen(false)} 
       />
 
       <SecretMessageModal 

@@ -132,27 +132,28 @@
   .site-header { padding: 0.75rem 0; }
 
   .header-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px auto 100px; /* Locked side widths for perfect centering */
     align-items: center;
-    gap: 0;
+    padding: 0 1rem;
   }
 
-  .brand { font-size: 1.3rem; flex-shrink: 0; }
+  .brand { 
+    font-size: 1.3rem; 
+    justify-self: start;
+  }
 
   /* Nav takes remaining center space */
   .nav {
-    position: static;
-    transform: none;
-    flex: 1;
-    justify-content: center;
-    gap: 1.2rem;
+    justify-self: center;
+    gap: 1rem;
   }
 
   .nav-link { font-size: 0.82rem; }
 
-  /* Only keep theme toggle, hide play & music (accessible via bottom pill) */
-  .header-actions .action-btn:not(:last-child) {
-    display: none;
+  /* Keep both shuffle & theme toggle visible */
+  .header-actions {
+    gap: 0.5rem;
   }
 
   .action-btn {
@@ -173,7 +174,8 @@
 }
 
 @media (max-width: 400px) {
+  .header-container { grid-template-columns: 75px auto 75px; }
   .brand { font-size: 1.1rem; }
-  .nav { gap: 0.9rem; }
-  .nav-link { font-size: 0.78rem; }
+  .nav { gap: 0.8rem; }
+  .nav-link { font-size: 0.75rem; }
 }

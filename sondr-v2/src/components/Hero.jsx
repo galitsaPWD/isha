@@ -12,7 +12,7 @@ const Hero = ({ onBrowse, setIsBlushActive, isBlushActive, onOpenSecret }) => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2 }}
           >
-            est. 2024 — poetry & prose
+            est. 2026 — poetry & prose
           </motion.div>
           
           <motion.h1 
@@ -59,7 +59,7 @@ const Hero = ({ onBrowse, setIsBlushActive, isBlushActive, onOpenSecret }) => {
               when the world went silent <br/>
               and the heart spoke loudest."
             </p>
-            <span className="note-signature">— the author</span>
+            <span className="note-signature">— wana</span>
           </div>
           
           {/* Clickable Fragment -> Opens Secret Letter */}

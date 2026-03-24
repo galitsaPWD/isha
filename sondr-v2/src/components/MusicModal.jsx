@@ -19,7 +19,7 @@ const MusicModal = ({ isOpen, onClose }) => {
           <header className="music-modal-header">
             <h2 className="modal-title">isha's playlist.</h2>
             <p className="modal-meta">music to read by.</p>
-            <p className="login-hint">tip: log into spotify on this browser to hear full songs. 🌹</p>
+            <p className="login-hint">tip: log in to spotify on chrome to hear the full songs here. 🌹</p>
           </header>
           
           <div className="music-content">
