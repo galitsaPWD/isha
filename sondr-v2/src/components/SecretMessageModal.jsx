@@ -27,7 +27,7 @@ const SecretMessageModal = ({ isOpen, onClose }) => {
     return () => { document.body.style.overflow = ''; };
   }, [isOpen]);
 
-  const messageText = `zup siraulo, if ur reading this well, i've already told u the old poetry website bout u, trust me its been months that i've wanted to tell u bout that, pero i just dont have the courage ig. anyways this website still is the same but much better coz i've given it much more time than the one before. so yeah, hope we're still u know, friends? idk lmao T_T i just wanted tell that dito lang me kahit andiyan lang u jk shet wala ko kabalo hambalon ko. okay so yan siya dito lang me lagi just on the sidelines, quietly supporting u — hopefully u dont get cringed out by this. and if u need someone to talk to or just be with — just hit me up, as long as im not busy i'll make time. so un, check lang? safe a\n\nps. hover at ur name at the top left`;
+  const messageText = `zup siraulo, if ur reading this well, i've already told u the old poetry website bout u, trust me its been months that i've wanted to tell u bout that, pero i just dont have the courage ig. anyways this website still is the same but much better coz i've given it much more time than the one before. so yeah, hope we're still u know, friends? idk lmao T_T i just wanted tell u that dito lang me kahit andiyan lang u jk shet wala ko kabalo hambalon ko. okay so yan siya dito lang me lagi just on the sidelines, quietly supporting u — hopefully u dont get cringed out by this. and if u need someone to talk to or just be with — just hit me up, as long as im not busy i'll make time. so un, check lang? safe a\n\nps. hover at ur name at the top left`;
 
   return (
     <AnimatePresence>
